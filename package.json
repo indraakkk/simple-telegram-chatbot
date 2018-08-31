@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "name": "mondaycoolbot",
+  "version": "1.0.0",
+  "description": "learn how to made telegram bot",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dbot-js": "^1.0.2",
+    "dotenv": "^6.0.0",
+    "micro": "^9.3.3",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.88.0"
+  }
+}
