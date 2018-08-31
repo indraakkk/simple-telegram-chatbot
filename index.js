@@ -17,3 +17,5 @@ dbot.get_response(message, (err, res)=> {
     }
   })
 })
+
+console.log('app already up and running')
