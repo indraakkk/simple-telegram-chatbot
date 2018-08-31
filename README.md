@@ -1,1 +1,7 @@
-TELEGRAM_TOKEN = 612840370:AAHa-q8k_NMEObb70XukJWKcAxEOlxmzVpA
+## simple telegram chatbot
+
+reply in bahasa with dbot
+
+```
+npm install dbot-js
+```
