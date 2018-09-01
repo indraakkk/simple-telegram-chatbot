@@ -1,0 +1,29 @@
+{
+    "name": "API.AI Telegram integration",
+    "description": "Api.ai Telegram integration allows you to create Telegram bots with natural language understanding based on Api.ai technology.",
+    "repository": "https://github.com/indraakkk/simple-telegram-chatbot",
+    "logo": "http://xvir.github.io/img/apiai.png",
+    "keywords": ["api.ai", "telegram", "natural language"],
+    "env": {
+      "APP_NAME": {
+        "description": "indra-col-bot",
+        "value": ""
+      },
+      "TELEGRAM_TOKEN": {
+        "description": "Telegram bot token",
+        "value": "610046122:AAEP1nsQPUf9u_MhYdVczum4Z4P5r8waHnU"
+      },
+      "APIAI_ACCESS_TOKEN": {
+        "description": "Client access token for Api.ai",
+        "value": "982059c00875424399de1cf8c7eb39a3"
+      },
+      "APIAI_LANG": {
+        "description": "Agent language",
+        "value": "en",
+        "required": false
+      }
+    },
+    "engines": {
+      "node": "8.11.3"
+    }
+  }
