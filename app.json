@@ -11,11 +11,11 @@
       },
       "TELEGRAM_TOKEN": {
         "description": "Telegram bot token",
-        "value": "610046122:AAEP1nsQPUf9u_MhYdVczum4Z4P5r8waHnU"
+        "value": ""
       },
       "APIAI_ACCESS_TOKEN": {
         "description": "Client access token for Api.ai",
-        "value": "982059c00875424399de1cf8c7eb39a3"
+        "value": ""
       },
       "APIAI_LANG": {
         "description": "Agent language",

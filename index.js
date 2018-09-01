@@ -59,6 +59,6 @@ app.post('/webhook', (req, res)=> {
 })
 
 app.listen(REST_PORT, ()=> {
-  console.log('REST Servce running on port' + REST_PORT);
+  console.log('REST Servce running on port:' + REST_PORT);
   
 })

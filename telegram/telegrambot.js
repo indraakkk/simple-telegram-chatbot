@@ -41,7 +41,7 @@ module.exports = class TelegramBot{
         this._sessionIds = new Map()
 
         this._webhookUrl = baseUrl + '/webhook'
-        console.log('starting bot on' + this._webhookUrl)
+        console.log('starting bot on ' + this._webhookUrl)
 
         this._telegramApiUrl = 'https://api.telegram.org/bot' + botConfig.telegramToken
     }
