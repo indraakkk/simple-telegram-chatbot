@@ -3,7 +3,7 @@ require("dotenv").config();
 const Telegram = require("node-telegram-bot-api");
 const Reply = require("./instance/axiosinstance");
 
-const token = "610046122:AAEP1nsQPUf9u_MhYdVczum4Z4P5r8waHnU";
+const token = process.env.TELEGRAM_TOKEN;
 const mondayCoolBot = new Telegram(token, { polling: true });
 
 mondayCoolBot.on("message", chat => {

@@ -5,7 +5,7 @@ require("dotenv").config();
 const DIALOGFLOW_API_URL = process.env.DIALOGFLOW_API_URL;
 const DIALOGFLOW_CLIENT_TOKEN = process.env.DIALOGFLOW_CLIENT_TOKEN;
 
-const AuthStr = "Bearer ".concat("87b5716115df4a8dbc983beb3850ece2");
+const AuthStr = "Bearer ".concat(DIALOGFLOW_CLIENT_TOKEN);
 
 module.exports = {
   get_reply: (chat, callback) => {
